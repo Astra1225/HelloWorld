@@ -24,9 +24,9 @@ public class OperatorExample {
 		
 		int sum = 75300;
 		
-		System.out.println(sum/50000);
-		System.out.println(sum%50000/10000);
-		System.out.println(sum%50000%10000/5000);
-		System.out.println(sum%50000%10000%5000/100);
+		System.out.println("5만원권 " + sum/50000+ "장");
+		System.out.println("1만원권 " + sum%50000/10000+ "장");
+		System.out.println("5천원권 " + sum%50000%10000/5000+ "장");
+		System.out.println("1백원권 " + sum%50000%10000%5000/100+ "장");
 	}
 }
