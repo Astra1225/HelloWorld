@@ -22,15 +22,15 @@ public class HomeWork2 {
 	    Goods_Price = scn.nextDouble();
 	    
 	    
-	   VAT = (Goods_Price * 0.1);
+	    VAT = (Goods_Price * 0.1);
 	    Price = Goods_Price+VAT;
 	    Changes = Money - Price; 
 	    
-	    System.out.printf("[현금] %.0f\n", Money);
-	    System.out.printf("[물건가격] %.0f\n", Goods_Price);
-	    System.out.printf("[부가세] %.0f\n", VAT);
-	    System.out.printf("[총합] %.0f\n", Price);
-	    System.out.printf("[잔돈] %.0f\n", Changes);
+	    System.out.printf("[현금] %.0f원\n", Money);
+	    System.out.printf("[물건가격] %.0f원\n", Goods_Price);
+	    System.out.printf("[부가세] %.0f원\n", VAT);
+	    System.out.printf("[총합] %.0f원\n", Price);
+	    System.out.printf("[잔돈] %.0f원\n", Changes);
 
 	    
 		

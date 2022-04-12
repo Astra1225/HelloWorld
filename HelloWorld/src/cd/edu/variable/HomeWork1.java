@@ -10,7 +10,7 @@ public class HomeWork1 {
 		Value1 = Orange / Big_Box;
 		Value2 = (Orange % Big_Box)/Small_Box;
 		
-		System.out.printf("10개씩 담는 상자는 %d개이며,"
+		System.out.printf("10개씩 담는 상자는 %d개이며, "
 				+ "5개씩 담는 상자는 %d개이다.", Value1, Value2);
 	}
 
